@@ -9,4 +9,11 @@ public class StringUtil {
         }
         return result;
     }
+
+    public static boolean isEmpty(String str){
+        if(str == null) return true;
+        str = str.trim();
+
+        return str.length() == 0;
+    }
 }

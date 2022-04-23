@@ -1,5 +1,6 @@
-package com.example.testsjava.util;
+package com.example.testsjava.player.util;
 
+import com.example.testsjava.util.PasswordUtil;
 import com.example.testsjava.util.PasswordUtil.SecurityLavel;
 import org.junit.Test;
 
